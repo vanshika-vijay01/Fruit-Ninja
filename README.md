@@ -7,6 +7,9 @@ Just open and play.
 
 # Screen Shots
 Main Page
-![Screenshot (157)](https://user-images.githubusercontent.com/87376932/155844550-793eee7f-508c-4667-bc47-9ccf694de209.png)
+![Screenshot (162)](https://user-images.githubusercontent.com/87376932/155844738-1d4f8ce3-98ce-4103-a79e-75e6332dc7f3.png)
+
+
+Game over
 
 
