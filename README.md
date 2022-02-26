@@ -7,10 +7,12 @@ Just open and play.
 
 # Screen Shots
 Main Page
+
 ![Screenshot (162)](https://user-images.githubusercontent.com/87376932/155844738-1d4f8ce3-98ce-4103-a79e-75e6332dc7f3.png)
 
 
-Game over
+Game Over
+
 ![Screenshot (165)](https://user-images.githubusercontent.com/87376932/155844904-78dcc481-8be0-4ed3-9860-26460a6be657.png)
 
 
