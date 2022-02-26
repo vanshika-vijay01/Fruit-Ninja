@@ -1,0 +1,189 @@
+/*styling.css*/
+body{
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#background-image{
+        height: 100vh;
+        background-image: url("images/container.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+}
+
+#container{
+    height: 600px;
+    width: 750px;
+    background-color: #DEB887;
+    top: 70px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #0f080e;
+    -moz-box-shadow: 0px 4px 0px 0px #0f080e ;
+    -webkit-box-shadow: 0px 4px 0px 0px #0f080e;
+/* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
+    position: relative;
+}
+
+#score{
+    background-color: beige;
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 6px;
+    top: 50px;
+    position: absolute;
+    left: 1350px;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+#fruitsContainer{
+    width: 650px;
+    height: 400px;
+    margin: 50px auto 10px auto;
+    background-image: url("images/wood.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px #66442c;
+    -moz-box-shadow: 0px 4px #66442c;
+    -webkit-box-shadow: 0px 4px #66442c;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden; /*fruits are hidden*/
+}
+
+#instruction{
+    width: 450px;
+    height: 50px;
+    font-family: cursive;
+    background-color: #4c2b21;
+    color: white;
+    font-size: 35px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #4c2b21;
+    -moz-box-shadow: 0px 4px #4c2b21;
+    -webkit-box-shadow: 0px 4px #4c2b21;
+}
+
+#choices{
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+
+.box:active, #startreset:active{
+    background-color: #7c5835;
+    color: white;
+    box-shadow: 0px 0px #66442c; 
+    -moz-box-shadow: 0px 0px #66442c; 
+    -webkit-box-shadow: 0px 0px #66442c; 
+    top: 4px;
+}
+#box4{
+    margin-right: 0;   
+}
+
+#startreset{
+    width: 95px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;   
+}
+
+#trialsLeft{
+    width: 80px;
+    padding: 6px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    background-color: beige;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    /*visibility: none;*/
+    display: none;
+}
+
+#gameOver{
+    height: 200px;
+    width: 500px;
+    font-family: sans-serif;
+    background: transparent;
+    /*background: -webkit-linear-gradient(#F3CA6B, #F3706C);
+    background: -o-linear-gradient(#F3CA6B, #F3706C);
+    background: -moz-linear-gradient(#F3CA6B, #F3706C);*/
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 180px;
+    left: 145px;
+    z-index: 2;
+    display: none;
+    
+}
+
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px; 
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}
