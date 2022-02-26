@@ -5,4 +5,8 @@ This is the simple javascript based fruit ninja game which includes demonstratio
 This is the very simple to use.
 Just open and play.
 
-# Screenshot
+# Screen Shots
+Main Page
+![Screenshot (157)](https://user-images.githubusercontent.com/87376932/155844550-793eee7f-508c-4667-bc47-9ccf694de209.png)
+
+
